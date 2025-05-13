@@ -1,13 +1,19 @@
 *{
     margin:0;
+    padding: 0;
   }
-  
   .container{
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 100vh;
   }
-  
+  h2{
+    padding: 10px;
+    text-transform: uppercase;
+  }
   .card{
     display:flex;
     flex-direction:column;
@@ -18,38 +24,36 @@
     border: 2px solid black;
     border-radius:10px;
     box-shadow: 1px 2px 5px 3px black;
-    padding:50px;
-    margin:50px;
+    padding:20px;
+    height: 80px;
     
   }
-  
   .card p{
     font-size:20px;
     font-weight:800;
+    text-transform: uppercase;
+    font-size: 15px;
   }
-  
   .card input{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 1px 3px 3px black;
     height:30px;
     margin:10px;
+    text-align: center;
   }
-  
   .card button{
-    margin:20px;
+    margin:10px;
     border: 2px solid black;
     border-radius: 10px;
     width:100px;
     text-align:center;
     background-color:rgb(144,238,144, .7);
   }
-  
   .card button:hover{
     background-color: rgb(144,268,144);
     box-shadow: 1px 3px 3px black;
   }
-  
   .card button:active{
     background-color: yellow;
     box-shadow: 3px 1px 1px black;
